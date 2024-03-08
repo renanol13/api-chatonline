@@ -24,4 +24,5 @@ app.use("/chats", routerChat);
 const routerMessage = require("./Routers/messageRouter");
 app.use("/messages", routerMessage);
 
-module.exports = { io, serverHttp };
+module.exports = serverHttp 
+module.exports = io

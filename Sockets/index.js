@@ -1,4 +1,4 @@
-const { io } = require("../app");
+const  io  = require("../app");
 
 let onlineUser = [];
 
